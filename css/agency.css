@@ -60,6 +60,17 @@ h6 {
     margin: 0 auto;
 }
 
+.img-logo{
+  margin-top: -15px;
+  height: 48px;
+  width: 113px;
+}
+
+.img-header{
+  height: 255px;
+  width: 600PX;
+
+}
 .bg-light-gray {
     background-color: #f7f7f7;
 }
@@ -82,7 +93,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #FA4969;
     color: #fff;
     background-color: #EE1B41;
 }
@@ -134,7 +145,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #FA4969;
     color: #fff;
     background-color: #EE1B41;
 }
@@ -268,6 +279,7 @@ header {
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
+    height: 725px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -298,7 +310,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 175px;
         padding-bottom: 200px;
     }
 
@@ -314,9 +326,15 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
+        font-size: 35px;
+        font-weight: 300;
         line-height: 75px;
+        line-height: 85px;
+        margin-top: -92px;
+        color: #FFF3F6;
+
+
+
     }
 }
 
