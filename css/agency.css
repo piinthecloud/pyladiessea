@@ -68,9 +68,16 @@ h6 {
 
 .img-header{
   height: 255px;
-  width: 600PX;
+  width: 600px;
 
 }
+
+.brand-image{
+  height: 250px;
+  width:250px;
+}
+
+
 .bg-light-gray {
   background-color: #f7f7f7;
 }
@@ -377,55 +384,14 @@ section h3.section-subheading {
   text-transform: none;
 }
 
-#get-involved .get-involved-item {
+#events .events-item {
   right: 0;
   margin: 0 0 15px;
 
 }
 
-#get-involved .get-involved-item .get-involved-link {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  max-width: 400px;
-}
 
-#get-involved .get-involved-item .get-involved-link .get-involved-hover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  background: rgba(238, 27, 65, .6);
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s;
-  transition: all ease .5s;
-}
-
-#get-involved .get-involved-item .get-involved-link .get-involved-hover:hover {
-  opacity: 1;
-}
-
-#get-involved .get-involved-item .get-involved-link .get-involved-hover .get-involved-hover-content {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 20px;
-  margin-top: -12px;
-  text-align: center;
-  font-size: 20px;
-  color: #fff;
-}
-
-#get-involved .get-involved-item .get-involved-link .get-involved-hover .get-involved-hover-content i {
-  margin-top: -12px;
-}
-
-#get-involved .get-involved-item .get-involved-link .get-involved-hover .get-involved-hover-content h3,
-#get-involved .get-involved-item .get-involved-link .get-involved-hover .get-involved-hover-content h4 {
-  margin: 0;
-}
-
-#get-involved .get-involved-item .get-involved-caption {
+#events .events-item .events-caption {
   margin: 0 auto;
   padding: 25px;
   max-width: 400px;
@@ -433,24 +399,19 @@ section h3.section-subheading {
   background-color: #fff;
 }
 
-#get-involved .get-involved-item .get-involved-caption h4 {
-  margin: 0;
-  text-transform: none;
+.events-link {
+  text-decoration: none;
 }
 
-#get-involved .get-involved-item .get-involved-caption p {
-  margin: 0;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-style: italic;
-}
 
-#get-involved * {
+
+#events * {
   z-index: 2;
+  text-decoration: none;
 }
 
 @media(min-width:767px) {
-  #get-involved .get-involved-item {
+  #events .events-item {
     margin: 0 0 30px;
   }
 }
@@ -610,7 +571,7 @@ ul.social-buttons li a:active {
   outline: 0;
 }
 
-.get-involved-modal .modal-content {
+.events-modal .modal-content {
   padding: 100px 0;
   min-height: 100%;
   border: 0;
@@ -621,32 +582,32 @@ ul.social-buttons li a:active {
   box-shadow: none;
 }
 
-.get-involved-modal .modal-content h2 {
+.events-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
 }
 
-.get-involved-modal .modal-content p {
+.events-modal .modal-content p {
   margin-bottom: 30px;
 }
 
-.get-involved-modal .modal-content p.item-intro {
+.events-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   font-style: italic;
 }
 
-.get-involved-modal .modal-content ul.list-inline {
+.events-modal .modal-content ul.list-inline {
   margin-top: 0;
   margin-bottom: 30px;
 }
 
-.get-involved-modal .modal-content img {
+.events-modal .modal-content img {
   margin-bottom: 30px;
 }
 
-.get-involved-modal .close-modal {
+.events-modal .close-modal {
   position: absolute;
   top: 25px;
   right: 25px;
@@ -656,11 +617,11 @@ ul.social-buttons li a:active {
   cursor: pointer;
 }
 
-.get-involved-modal .close-modal:hover {
+.events-modal .close-modal:hover {
   opacity: .3;
 }
 
-.get-involved-modal .close-modal .lr {
+.events-modal .close-modal .lr {
   z-index: 1051;
   width: 1px;
   height: 75px;
@@ -671,7 +632,7 @@ ul.social-buttons li a:active {
   transform: rotate(45deg);
 }
 
-.get-involved-modal .close-modal .lr .rl {
+.events-modal .close-modal .lr .rl {
   z-index: 1052;
   width: 1px;
   height: 75px;
@@ -681,7 +642,7 @@ ul.social-buttons li a:active {
   transform: rotate(90deg);
 }
 
-.get-involved-modal .modal-backdrop {
+.events-modal .modal-backdrop {
   display: none;
   opacity: 0;
 }
