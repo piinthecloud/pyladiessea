@@ -35,8 +35,8 @@ function loadEventsFromMeetup() {
         var humanTime = date.toDateString()+ ' ' + '@'+ ' '+[(date.getHours() > 12 ? date.getHours() - 12 : date.getHours()),
           (date.getMinutes() == 0 ? "00" : date.getMinutes())
         ].join(':') + (date.getHours() > 12 ? " PM" : " AM");
-        $('.event-row').append('<div class="col-md-4 col-sm-6 events-item"> <a href="'+data.results[i].event_url+'" target=blank class="events-link"> <div class="events-caption"> <i class="fa fa-calendar fa-3x"></i> <h6>'+data.results[i].name+'</h6> <p class="text-muted">'+humanTime+'</p> <p> '+data.results[i].yes_rsvp_count+' pyladies attending</p> </div> </a> </div>')
 
+        $('.event-row').append('<div class="col-md-4 col-sm-6 events-item"> <a href="'+data.results[i].event_url+'" target=blank class="events-link"> <div class="events-caption"> <i class="fa fa-calendar fa-3x"></i> <h6>'+data.results[i].name+'</h6> <p class="text-muted">'+humanTime+'</p> <p> '+data.results[i].yes_rsvp_count+' pyladies attending</p> </div> </a> </div>')
       }
 
     }
