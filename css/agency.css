@@ -394,6 +394,7 @@ section h3.section-subheading {
 #events .events-item .events-caption {
   margin: 0 auto;
   padding: 25px;
+  min-height:350px;
   max-width: 400px;
   text-align: center;
   background-color: #fff;
@@ -403,7 +404,21 @@ section h3.section-subheading {
   text-decoration: none;
 }
 
+.event-info br {
+  display: none;
+}
 
+.event-info{
+  height:150px;
+  width:310px;
+  overflow:auto;
+  color: #777;
+  border-color: #CFCFCF;
+  border-width: 2px;
+  border-style: dotted;
+  padding: 10px;
+
+}
 
 #events * {
   z-index: 2;
